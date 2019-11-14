@@ -1,0 +1,102 @@
+
+.fa-bars {
+  color: #e26200;
+  font-size: 24px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: AliceBlue;
+    height: 88px;
+    z-index: 50;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding: 0 0 0 20px;
+  }
+  
+  .logo {
+    margin: 3rem;
+  }
+  
+  .logo a{
+    color: #e26200;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: 'Eagle Lake', cursive;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation-items li {
+    padding: 0 0.5rem;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+  .navigation-items a {
+    color: #e26200;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  @media (max-width: 950px) {
+    .logo a{
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .logo a{
+      font-size: 32px;
+    }
+  }
+  
+  @media (min-width: 671px) {
+  
+    .toggle-button {
+      display: none;
+    }
+  
+    .logo {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 670px) {
+    .navigation-items {
+      display: none;
+    }
+
+    .logo {
+      margin: 0 24px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .logo a {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 345px) {
+    .logo a {
+      font-size: 24px;
+    }
+  }

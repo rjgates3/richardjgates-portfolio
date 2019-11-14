@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "richardjgates-portfolio",
+    "name": "portfolio",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }

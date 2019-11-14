@@ -1,0 +1,14 @@
+
+* {
+    transition:all 0.7s ease;
+}
+
+.project-image:hover {
+    box-shadow: 0 0 40px black;
+    opacity : 1;
+}
+
+.live-link:hover, .client-link:hover {
+    background-color: #e26200;
+    color: #353782;
+}
