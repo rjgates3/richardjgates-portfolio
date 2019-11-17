@@ -12,7 +12,7 @@ class ContactMe extends React.Component {
                     <div className="contact">
                         <i className="far fa-envelope fa-2x"></i>
                         <a href="mailto:Gates.J.Richard@Gmail.com" target="blank">
-                            Gates.J.Richard@Gmail.com
+                            Gates.J.Richard@gmail.com
                         </a>
                     </div>
                     <div className="contact">

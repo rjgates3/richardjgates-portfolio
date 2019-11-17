@@ -51,12 +51,12 @@ const content = (function() {
             background: 'green'
         },
         jollyLube: {
-            title: 'JollyLube',
+            title: 'Jolly Lube',
             live: 'https://jollylube.gatesjrichard.now.sh/',
             repo: 'https://github.com/rjgates3/jollylube',
             image: jollylubeImage,
             imageAlt: 'Jolly Lube App',
-            desc: 'JollyLube, a play on JiffyLube was created as a scheduling app for a oil change company. Users can create an account, schedule appointments by selecting from available days, and times, and delete appointments.',
+            desc: 'Jolly Lube, a play on Jiffy Lube was created as a scheduling app for an oil change company. Users can create an account, schedule appointments by selecting from available days and times, and delete appointments.',
             tech: [
                 'HTML5',
                 'CSS3',

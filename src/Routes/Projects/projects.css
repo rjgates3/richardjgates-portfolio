@@ -62,7 +62,7 @@ body {
     margin: 20px auto;
     max-width: 225px;
     box-shadow: none;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .tech {
@@ -180,5 +180,11 @@ body {
 
     .tech {
         height: 410px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .project-image {
+        opacity: 0.5;
     }
 }
