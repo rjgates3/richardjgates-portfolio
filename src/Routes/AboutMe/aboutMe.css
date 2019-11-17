@@ -1,37 +1,38 @@
 
 .aboutme {
-    max-width: 40%;
+    max-width: 70%;
     margin: 0 auto;
-    padding: 20px 60px;
+    padding: 10px 25px;
     background: #F2E6E6;
 }
 
 .aboutme p {
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
     line-height: 29px;
     text-indent: 40px;
 }
 
-@media (max-width: 800px) {
-
+@media (min-width: 500px) {
     .aboutme {
         max-width: 55%;
         padding: 15px 40px;
     }
     .aboutme p {
+        font-size: 24px;
         text-indent: 25px;
+        line-height: 30px;
     }
 }
 
-@media (max-width: 500px) {
-    
+@media (min-width: 800px) {
     .aboutme {
-        max-width: 70%;
-        padding: 10px 25px;
+        max-width: 55%;
+        padding: 20px 60px;
     }
-
     .aboutme p {
-        font-size: 18px;
+        font-size: 30px;
+        text-indent: 30px;
+        line-height: 36px;
     }
 }

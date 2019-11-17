@@ -113,7 +113,7 @@ const content = (function() {
         },
         goodMeal: {
             title: 'Good Meal',
-            live: 'https://good-meal-app.now.sh/',
+            live: 'https://good-meal.now.sh/',
             repo: 'https://github.com/thinkful-ei-firefly/recipe-client',
             image: goodMealImage,
             imageAlt: 'Good Meal App',
