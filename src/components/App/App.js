@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 //import routes
-import Landing from '../../Routes/Landing/Landing'
 import AboutMe from '../../Routes/AboutMe/AboutMe';
 import Projects from '../../Routes/Projects/Projects';
 import ContactMe from '../../Routes/ContactMe/ContactMe';
